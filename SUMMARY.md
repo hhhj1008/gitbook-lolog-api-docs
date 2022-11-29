@@ -8,11 +8,14 @@
   - [Main](Main/README.md)
   - [Lolog](Lolog/README.md)
     - [게시글 상세 페이지 조회](Lolog/Select-Post-Detail.md)
+    - [시리즈 목록](Lolog/Select-Series-List.md)
+    - [시리즈 게시글 조회](Lolog/Select-Sereis-Posts.md)
   - [Posts](Post/README.md)
 
     - [게시글 작성](Post/Create-Posts.md)
     - [게시글 수정](Post/Update-Posts.md)
     - [게시글 삭제](Post/Delete-Posts.md)
+    - [임시글 목록](Post/Select-Saves.md)
 
   - [Comments](Comment/README.md)
     - [댓글 작성](Comment/Create-Comments.md)

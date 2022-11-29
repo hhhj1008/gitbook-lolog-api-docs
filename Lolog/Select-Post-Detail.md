@@ -6,10 +6,6 @@
 
 ### Parameter
 
-**authorization - Bearer Token**
-
-- login 시 발급 받은 access token
-
 **parma**
 
 - user_id : 게시글을 작성한 사용자의 ID
