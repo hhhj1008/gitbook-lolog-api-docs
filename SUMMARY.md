@@ -7,6 +7,7 @@
   - [Users](User/README.md)
   - [Main](Main/README.md)
   - [Lolog](Lolog/README.md)
+    - [게시글 상세 페이지 조회](Lolog/Select-Post-Detail.md)
   - [Posts](Post/README.md)
 
     - [게시글 작성](Post/Create-Posts.md)
@@ -22,5 +23,5 @@
     - [시리즈 생성](Series/Create-Series.md)
     - [시리즈 수정](Series/Update-Series.md)
     - [시리즈 삭제](Series/Delete-Series.md)
-  - [Uploads]()
+  - [Uploads](Uploads/README.md)
     - [썸네일](Uploads/Thumbnail.md)
