@@ -13,7 +13,6 @@
     - [게시글 작성](Post/Create-Posts.md)
     - [게시글 수정](Post/Update-Posts.md)
     - [게시글 삭제](Post/Delete-Posts.md)
-    - [임시글 목록]()
 
   - [Comments](Comment/README.md)
     - [댓글 작성](Comment/Create-Comments.md)
