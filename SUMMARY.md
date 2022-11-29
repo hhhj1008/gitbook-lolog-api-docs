@@ -16,9 +16,9 @@
     - [임시글 목록]()
 
   - [Comments](Comment/README.md)
-    - [댓글 작성]()
-    - [댓글 수정]()
-    - [댓글 삭제]()
+    - [댓글 작성](Comment/Create-Comments.md)
+    - [댓글 수정](Comment/Update-Comments.md)
+    - [댓글 삭제](Comment/Delete-Comments.md)
   - [Series](Series/README.md)
     - [시리즈 생성](Series/Create-Series.md)
     - [시리즈 수정](Series/Update-Series.md)
