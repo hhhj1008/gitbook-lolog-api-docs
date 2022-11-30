@@ -1,26 +1,22 @@
 # 썸네일
 
-{% hint style="warning" %}
-**API 주소가 변경될 예정입니다.**
-{% endhint %}
-
 ## ThumbnailUpload - 썸네일 업로드
 
-![](https://img.shields.io/badge/POST-green?style=plastic\&logo=appveyor\&logo=POST) http://localhost:8000/posts/thumbnail
+![](https://img.shields.io/badge/POST-green?style=plastic&logo=appveyor&logo=POST) http://localhost:8000/uploads/thumbnail?image_url={image_url}
 
 ### Parameter
 
-**authorization - Bearer Token**
+**query**
 
-* login 시 발급 받은 access token
+- image_url : 썸네일을 재업로드 할 경우 기존 imageURL을 필요로 함.
 
 **body - form-data**
 
-* key : image / value: image\_file
+- key : image / value: image_file
 
 ### Responses
 
-![](https://img.shields.io/badge/200-519800?style=plastic\&logo=appveyor\&logo=200) thumbnail upload success
+![](https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200) thumbnail upload success
 
 <details>
 
@@ -29,33 +25,26 @@
 ```json
 {
   "statusCode": 200,
-  "message": "thumbnail upload success",
-  "imageUrl": "http://localhost:8000/public/329f7f7a-3a6f-4365-bf46-45d9ea43c96f.png"
+  "imageUrl": "http://localhost:8000/public/5b6aab81-f70a-4b21-be3e-adc948fbe3f7.jpg"
 }
-
 ```
 
 </details>
 
-![](https://img.shields.io/badge/403-DB3A00?style=plastic\&logo=appveyor\&logo=403) thumbnail upload failed\
-
+![](https://img.shields.io/badge/403-DB3A00?style=plastic&logo=appveyor&logo=403) thumbnail upload failed
 
 ## ThumbnailDelete - 썸네일 삭제
 
-![](https://img.shields.io/badge/DELETE-red?style=plastic\&logo=appveyor\&logo=DELETE) http://localhost:8000/posts/thumbnail
+![](https://img.shields.io/badge/DELETE-red?style=plastic&logo=appveyor&logo=DELETE) http://localhost:8000/uploads/thumbnail?image_url={image_url}
 
 ### Parameter
 
-**body - json**
+**query**
 
-```json
-{
-  "file_name": "3b60ea4a-e73e-4720-8e69-5dc507456fe0.jpg"
-}
-```
+- image_url : 삭제할 이미지의 URL.
 
 ### Responses
 
-![](https://img.shields.io/badge/200-519800?style=plastic\&logo=appveyor\&logo=200) thumbnail delete success
+![](https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200) thumbnail delete success
 
-![](https://img.shields.io/badge/403-DB3A00?style=plastic\&logo=appveyor\&logo=403) thumbnail delete failed
+![](https://img.shields.io/badge/403-DB3A00?style=plastic&logo=appveyor&logo=403) thumbnail delete failed
