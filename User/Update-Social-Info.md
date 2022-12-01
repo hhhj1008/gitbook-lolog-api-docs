@@ -2,7 +2,7 @@
 
 ## UpdateUser - 소셜 정보 수정
 
-<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users/type=social_info
+<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users?type=social_info
 
 ### Parameter
 

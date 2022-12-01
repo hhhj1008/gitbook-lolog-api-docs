@@ -2,7 +2,7 @@
 
 ## UpdateUser - 알림 수정
 
-<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users/type=alert
+<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users?type=alert
 
 ### Parameter
 

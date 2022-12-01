@@ -2,7 +2,7 @@
 
 ## UpdateUser - 제목 수정
 
-<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users/type=title
+<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/users?type=title
 
 ### Parameter
 
