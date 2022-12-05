@@ -24,7 +24,7 @@
 
 ### Responses
 
-<img src="https://img.shields.io/badge/201-519800?style=plastic&logo=appveyor&logo=201"/> about edit success
+<img src="https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200"/> about edit success
 
 <details>
 <summary>결과 값</summary>
