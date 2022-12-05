@@ -6,10 +6,6 @@
 
 ### Parameter
 
-**authorization - Bearer Token**
-
-- login 시 발급 받은 access token
-
 **parma**
 
 - series_id : 조회하고자 하는 시리즈의 ID

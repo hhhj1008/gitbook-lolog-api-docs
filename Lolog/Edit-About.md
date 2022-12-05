@@ -2,7 +2,7 @@
 
 ## CreatePost - 소개글 편집
 
-<img src="https://img.shields.io/badge/POST-green?style=plastic&logo=appveyor&logo=POST"/> http://localhost:8000/lolog/{user_id}/about
+<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/lolog/{user_id}/about
 
 ### Parameter
 

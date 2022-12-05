@@ -2,17 +2,13 @@
 
 ## SavesPostList - 임시글 조회
 
-<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/posts/{user_id}
+<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/posts/saves
 
 ### Parameter
 
 **authorization - Bearer Token**
 
 - login 시 발급 받은 access token
-
-**parma**
-
-- user_id : 임시글을 조회할 사용자의 ID
 
 ### Responses
 

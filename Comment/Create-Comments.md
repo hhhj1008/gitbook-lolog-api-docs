@@ -19,13 +19,11 @@
 ```json
 {
   "content": "댓글 내용",
-  "depth": 0,
   "parent_id": 1
 }
 ```
 
 - content : 필수로 작성
-- depth : 0 (상위 댓글), 1(대댓글)
 - parent_id : 대댓글이 작성될 상위 댓글의 ID. depth가 1일 경우 필수로 작성.
 
 ### Responses

@@ -2,18 +2,17 @@
 
 ## SelectPostDetail - 게시글 상세페이지 조회
 
-![](https://img.shields.io/badge/GET-blue?style=plastic\&logo=appveyor\&logo=GET) http://localhost:8000/lolog/{user\_id}/{post\_id}
+![](https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET) http://localhost:8000/posts/{post_id}
 
 ### Parameter
 
 **parma**
 
-* user\_id :  롤로그 소유자의 ID
-* post\_id : 댓글을 작성하고자 하는 게시글의 ID
+- post_id : 조회하고자 하는 게시글의 ID
 
 ### Responses
 
-![](https://img.shields.io/badge/200-519800?style=plastic\&logo=appveyor\&logo=200) 게시글 상세페이지 조회 성공
+![](https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200) 게시글 상세페이지 조회 성공
 
 <details>
 
@@ -128,16 +127,15 @@
 }
 ```
 
-* series : 설정된 시리즈의 게시글 목록
-* post : 게시글의 상세 페이지 내용. is\_writer가 1일 땐 로그인한 사용자와, 작성자가 일치. 0일 경우엔 불일치
-* next\_post : 다음 게시글 정보
-* pre\_post : 이전 게시글 정보
-* comments : 게시글에 작성된 댓글들의 목록. is\_comments\_writer 가 1일 땐 로그인한 사용자와, 작성자가 일치. 0일 경우엔 불일치.
-* interested : 관심 있을 만한 포스트들의 목록.
+- series : 설정된 시리즈의 게시글 목록
+- post : 게시글의 상세 페이지 내용. is_writer가 1일 땐 로그인한 사용자와, 작성자가 일치. 0일 경우엔 불일치
+- next_post : 다음 게시글 정보
+- pre_post : 이전 게시글 정보
+- comments : 게시글에 작성된 댓글들의 목록. is_comments_writer 가 1일 땐 로그인한 사용자와, 작성자가 일치. 0일 경우엔 불일치.
+- interested : 관심 있을 만한 포스트들의 목록.
 
 </details>
 
 \
 
-
-![](https://img.shields.io/badge/403-DB3A00?style=plastic\&logo=appveyor\&logo=403) 게시글 조회 실패
+![](https://img.shields.io/badge/403-DB3A00?style=plastic&logo=appveyor&logo=403) 게시글 조회 실패
