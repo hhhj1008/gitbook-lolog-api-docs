@@ -25,11 +25,11 @@
 ```json
 {
   "message": "Send Email",
-  "signup_code": "7673"
+  "signup_code": "0073"
 }
 ```
 
-- signup_code : 1 ~ 9999 사이의 정수
+- signup_code : 0000 ~ 9999 사이의 정수
 </div>
 </details>
 
@@ -43,8 +43,7 @@
 ```json
 {
   "statusCode": 409,
-  "message": "이미 가입된 이메일입니다.",
-  "error": "Conflict"
+  "message": "이미 가입된 이메일입니다."
 }
 ```
 
