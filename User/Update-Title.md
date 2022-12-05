@@ -47,8 +47,7 @@
 ```json
 {
   "statusCode": 400,
-  "message": "title must be entered",
-  "error": "Bad Request"
+  "message": "title must be entered"
 }
 ```
 

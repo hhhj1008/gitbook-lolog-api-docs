@@ -30,8 +30,7 @@ followee_id: 내가 언팔로우하려는 유저의 아이디
 ```json
 {
   "statusCode": 404,
-  "message": "Not Found UserId",
-  "error": "Not Found"
+  "message": "Not Found UserId"
 }
 ```
 
@@ -48,8 +47,7 @@ followee_id: 내가 언팔로우하려는 유저의 아이디
 ```json
 {
   "statusCode": 400,
-  "message": "Cannot follow yourself",
-  "error": "Bad Request"
+  "message": "Cannot follow yourself"
 }
 ```
 
@@ -66,8 +64,7 @@ followee_id: 내가 언팔로우하려는 유저의 아이디
 ```json
 {
   "statusCode": 409,
-  "message": "Already unfollow",
-  "error": "Conflict"
+  "message": "Already unfollow"
 }
 ```
 

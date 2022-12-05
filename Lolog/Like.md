@@ -23,9 +23,8 @@
 <div markdown="1">
 
 ```json
-// 201으로 수정하겠습니다,,
 {
-  "statusCode": 200
+  "statusCode": 201
 }
 ```
 
@@ -36,14 +35,13 @@
 
 <img src="https://img.shields.io/badge/409-DB3A00?style=plastic&logo=appveyor&logo=409"/> 
 <details>
-<summary>(예외처리 예정)결과 값</summary>
+<summary>결과 값</summary>
 <div markdown="1">
 
 ```json
 {
   "statusCode": 409,
-  "message": "이미 좋아요를 한 게시글 입니다",
-  "error": "Conflict"
+  "message": "이미 좋아요를 한 게시글 입니다"
 }
 ```
 

@@ -19,23 +19,21 @@
 <div markdown="1">
 
 ```json
-{
-  "LIKED_POST": [
+[
     {
-      "title": "4번",
-      "content": "4번",
-      "post_id": 4,
-      "user_id": 1,
-      "create_at": "2022년 11월 28일",
-      "thumbnail": "4번",
-      "user_name": "안수철1",
-      "post_likes": 1,
-      "post_comment_count": 0,
-      "user_profile_image": null
+        "post_title": "5번",
+        "post_content": "5번",
+        "post_thumbnail": "5번",
+        "post_likes": 1,
+        "post_comment_count": 0,
+        "user_name": "hello",
+        "user_profile_image": "http://localhost:8000/public/be6313c2-0230-4eef-8c4c-bcb55bc373d6.jpeg",
+        "post_id": 5,
+        "create_at": "2022-11-29T08:56:44.762Z",
+        "user_id": 3
     },
     ...
-  ]
-}
+]
 ```
 
 </div>

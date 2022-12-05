@@ -46,7 +46,7 @@
 </div>
 </details>
 <br>
-<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/> title must be entered
+<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/>
 
 <details>
 <summary>결과 값 - 0,1 이외의 값이 들어온 경우</summary>
@@ -63,17 +63,16 @@
 </div>
 </details>
 <br>
-<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/> title must be entered
+<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/>
 
 <details>
-<summary>(업데이트 후 예정)결과 값</summary>
+<summary>결과 값</summary>
 <div markdown="1">
 
 ```json
 {
   "statusCode": 400,
-  "message": "comment_alert must be entered",
-  "error": "Bad Request"
+  "message": "alert must be entered"
 }
 ```
 

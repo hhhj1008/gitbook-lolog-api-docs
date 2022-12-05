@@ -41,8 +41,7 @@
 ```json
 {
   "statusCode": 404,
-  "message": "좋아요를 하지 않은 게시글입니다",
-  "error": "Not Found"
+  "message": "좋아요를 하지 않은 게시글입니다"
 }
 ```
 
