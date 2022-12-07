@@ -4,6 +4,7 @@
 - [API Docs](api-docs/README.md)
   - [Auth](Auth/README.md)
     - [이메일 중복 확인 및 인증번호 전송](Auth/Check-Email.md)
+    - [로그인 아이디 중복 확인](Auth/Check-Login-Id.md)
     - [이메일 로그인](Auth/Email-Login.md)
     - [페이스북 로그인](Auth/Facebook-Login.md)
     - [깃헙 로그인](Auth/Github-Login.md)
