@@ -2,7 +2,7 @@
 
 ## SelectSereisPosts - 시리즈 게시글 조회
 
-<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/series/{series_id}?sort=asc
+<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/series/posts/{series_id}?sort=asc
 
 ### Parameter
 
@@ -27,17 +27,15 @@
   "statusCode": 200,
   "series": [
     {
-      "series_thumbnail": null,
+      "series_thumbnail": "",
       "post_series_sort": 1,
       "post_title": "게시글 제목",
       "post_content": "게시글 내용",
-      "post_create_at": "2022-11-28T15:30:29.769Z",
-      "series_id": 8,
-      "user_id": 1,
-      "post_id": 53
-    },
-    {
-      "is_owner": 1
+      "post_create_at": "2022-12-07T07:15:55.290Z",
+      "series_id": 13,
+      "user_id": 3,
+      "post_id": 105,
+      "is_owner": 0
     }
   ]
 }
@@ -58,4 +56,19 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/403-DB3A00?style=plastic&logo=appveyor&logo=403"/> 시리즈 게시글 조회 실패
+<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/> BadRequestException
+
+<details>
+
+<summary>오류 내용</summary>
+
+```json
+{
+  "statusCode": 400,
+  "message": "...."
+}
+```
+
+- query의 sort가 없거나, asc/desc 이 외의 값을 보냈을 경우
+
+</details>

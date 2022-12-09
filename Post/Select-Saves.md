@@ -12,7 +12,7 @@
 
 ### Responses
 
-<img src="https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200"/> 임시글 조회 성공
+<img src="https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200"/> 성공
 
 <details>
 <summary>결과 값</summary>
@@ -21,18 +21,13 @@
 ```json
 {
   "statusCode": 200,
-  "post": [
+  "saves": [
     {
-      "post_title": "임시글 제목",
-      "post_content": "임시글 내용",
-      "post_status": 3,
-      "post_thumbnail": "",
-      "post_likes": 0,
-      "post_comment_count": 0,
-      "post_create_at": "2022-11-18T13:53:47.515Z",
-      "user_id": 1,
       "post_id": 4,
-      "tags": null
+      "user_id": 1,
+      "title": "제목",
+      "content": "내용",
+      "create_at": "임시글 저장 일자"
     }
   ]
 }
@@ -43,4 +38,21 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/403-DB3A00?style=plastic&logo=appveyor&logo=403"/> 임시글 조회 실패
+<img src="https://img.shields.io/badge/404-DB3A00?style=plastic&logo=appveyor&logo=404"/> NotFoundException
+
+<img src="https://img.shields.io/badge/401-DB3A00?style=plastic&logo=appveyor&logo=401"/> UnauthorizedException
+
+<details>
+
+<summary>오류 내용</summary>
+
+```json
+{
+  "statusCode": 401,
+  "message": "Unauthorized"
+}
+```
+
+- access token이 없거나 잘못된 access token이 넘어온 경우.
+
+</details>
