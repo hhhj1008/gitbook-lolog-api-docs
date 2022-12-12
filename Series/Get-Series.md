@@ -1,16 +1,14 @@
 # 시리즈 조회
 
-## selectSeriesList - 시리즈 조회
+## getSeries - 시리즈 조회
 
-게시글 작성 / 수정 시 [시리즈에 추가하기] 버튼을 클릭하였을 때의 API
-
-<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/series
+<img src="https://img.shields.io/badge/GET-blue?style=plastic&logo=appveyor&logo=GET"/> http://localhost:8000/series/{user_id}
 
 ### Parameter
 
-**authorization - Bearer Token**
+**parma**
 
-- login 시 발급 받은 access token
+- user_id : 조회할 시리즈 소유자의 ID
 
 ### Responses
 
