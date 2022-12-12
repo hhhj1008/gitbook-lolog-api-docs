@@ -2,7 +2,7 @@
 
 ## Like - 좋아요
 
-<img src="https://img.shields.io/badge/POST-green?style=plastic&logo=appveyor&logo=POST"/> http://localhost:8000/lolog/{post_id}/like
+<img src="https://img.shields.io/badge/POST-green?style=plastic&logo=appveyor&logo=POST"/> http://localhost:8000/posts/{post_id}/like
 
 ### Parameter
 

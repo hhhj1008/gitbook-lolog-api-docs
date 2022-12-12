@@ -2,7 +2,7 @@
 
 ## Unlike - 좋아요 취소
 
-<img src="https://img.shields.io/badge/DELETE-red?style=plastic&logo=appveyor&logo=DELETE"/> http://localhost:8000/lolog/{post_id}/like
+<img src="https://img.shields.io/badge/DELETE-red?style=plastic&logo=appveyor&logo=DELETE"/> http://localhost:8000/posts/{post_id}/like
 
 ### Parameter
 
