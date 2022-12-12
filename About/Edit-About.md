@@ -2,13 +2,13 @@
 
 ## CreatePost - 소개글 편집
 
-<img src="https://img.shields.io/badge/PATCH-yellow?style=plastic&logo=appveyor&logo=PATCH"/> http://localhost:8000/about
+![](https://img.shields.io/badge/PATCH-yellow?style=plastic\&logo=appveyor\&logo=PATCH) http://localhost:8000/about
 
 ### Parameter
 
 **authorization - Bearer Token**
 
-- login 시 발급 받은 access token
+* login 시 발급 받은 access token
 
 **body - json**
 
@@ -20,7 +20,7 @@
 
 ### Responses
 
-<img src="https://img.shields.io/badge/200-519800?style=plastic&logo=appveyor&logo=200"/> 성공
+![](https://img.shields.io/badge/200-519800?style=plastic\&logo=appveyor\&logo=200) 성공
 
 <details>
 
@@ -32,20 +32,21 @@
   "about": {
     "user_id": 3,
     "about_blog": "소개글 내용",
-    "is_owner": "1"
+    "is_owner": 1
   }
 }
 ```
 
-- user_id: 소개글을 작성한 사용자의 ID
-- about_blog: 소개글 내용
-- is_owner: 소개글을 작성자와 로그인한 사용자가 일치할 경우 1, 일치하지 않을 경우 0
+* user\_id: 소개글을 작성한 사용자의 ID
+* about\_blog: 소개글 내용
+* is\_owner: 소개글을 작성자와 로그인한 사용자가 일치할 경우 1, 일치하지 않을 경우 0
 
 </details>
 
-<br>
+\
 
-<img src="https://img.shields.io/badge/400-DB3A00?style=plastic&logo=appveyor&logo=400"/> BadRequestException
+
+![](https://img.shields.io/badge/400-DB3A00?style=plastic\&logo=appveyor\&logo=400) BadRequestException
 
 <details>
 
@@ -58,6 +59,7 @@
 }
 ```
 
-- 데이터를 보내는 과정에서 잘못된 데이터가 왔을 경우 발생하는 오류 <br> ex) 잘못된 파라메터명, 혹은 알맞지 않은 데이터 및 타입
+* 데이터를 보내는 과정에서 잘못된 데이터가 왔을 경우 발생하는 오류\
+  ex) 잘못된 파라메터명, 혹은 알맞지 않은 데이터 및 타입
 
 </details>
